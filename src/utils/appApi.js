@@ -15,6 +15,7 @@ export const getDecryptedApiKey = () => {
   // Decrypt the API key
   const bytes = CryptoJS.AES.decrypt(encryptedKey, passphrase);
   const decryptedKey = bytes.toString(CryptoJS.enc.Utf8);
+  console.log(decryptedKey);
 
   return decryptedKey;
 };

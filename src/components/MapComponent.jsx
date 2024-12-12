@@ -5,6 +5,7 @@ import { getDecryptedApiKey } from "../utils/appApi";
 const MapComponent = ({ lat, lng }) => {
   // Retrieve the decrypted API key
   const apiKey = getDecryptedApiKey();
+  console.log(apiKey);
 
   // Define map styles and default center coordinates
   const mapStyles = {
