@@ -1,0 +1,80 @@
+/* Container for profile cards */
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 80px; 
+  }
+  
+  /* Profile card */
+  .profile-card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d8dbf0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  /* Hover effect for profile card */
+  .profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Profile image */
+  .profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Profile name */
+  .profile-card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+  
+  /* Profile description */
+  .profile-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* View Details link */
+  .profile-card a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .profile-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .admin-link {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .admin-link a {
+    text-decoration: none;
+    color: #081452;
+  }
+  
+  .admin-link a:hover {
+    text-decoration: underline;
+  }
+
+  p{
+    margin-left: 20px;
+  }
