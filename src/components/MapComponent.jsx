@@ -1,6 +1,6 @@
 import React from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
-import { getDecryptedApiKey } from "../utils/apiUtils";
+import { getDecryptedApiKey } from "../utils/appApi";
 
 const MapComponent = ({ lat, lng }) => {
   // Retrieve the decrypted API key
